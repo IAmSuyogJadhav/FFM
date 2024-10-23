@@ -9,4 +9,4 @@ The example notebook uses a ResNet-18 model trained on Caltech-101 dataset. To r
             ...
 ```
 
-Now, you can run the example notebook `ffm.ipynb` to compute FFM scores on some examples from the Caltech-101 dataset.
+Now, you can run the example notebook [`ffm.ipynb`](../ffm.ipynb) to compute FFM scores on some examples from the Caltech-101 dataset.
