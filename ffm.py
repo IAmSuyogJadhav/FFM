@@ -11,7 +11,7 @@ def batched_dice(pred, target, eps=1e-5):
     return dice
 
 
-def compute_ffm(model, img, gt_label, target_layer, reduce='mean', top_k=3, threshold=0.5, eps=1e-5, output_softmax=False, device='cuda'):
+def compute_ffm(model, img, gt_label, target_layer, reduce='mean', top_k=3, threshold=0.5, eps=1e-5, output_softmax=True, device='cuda'):
     """
     Compute Feature Faithfulness Metric (FFM) score for a batch of images. The model is expected to be a classification model, trained
     to give a one-hot encoded, softmax output. If the model is not trained with softmax, set output_softmax to True and the model
